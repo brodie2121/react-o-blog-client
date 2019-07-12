@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import BlogList from "./components/blogList";
 import BlogPost from "./components/blogPost";
 
-import './App.css';
-
 function App() {
   return (
     <Router>

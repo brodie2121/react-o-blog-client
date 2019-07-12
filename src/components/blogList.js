@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import AddPost from './addPost';
 
 class BlogList extends Component {
     state = {
@@ -36,6 +37,7 @@ class BlogList extends Component {
                         );
                     })}
                 </ul>
+                <AddPost />
             </>
         );
     }
